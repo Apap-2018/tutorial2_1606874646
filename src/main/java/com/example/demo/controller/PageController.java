@@ -13,7 +13,7 @@ public class PageController{
 	}
 	
 
-	@RequestMapping("/viral/challenge")
+	@RequestMapping("/challenge")
 	public String challenge(@RequestParam(value = "name") String name, Model model) {
 	model.addAttribute("name", name);
 		return "challenge";
