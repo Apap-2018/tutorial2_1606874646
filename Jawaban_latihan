@@ -1,0 +1,35 @@
+Muhammad Dimas Praharsa
+1606874646
+
+latihan Project Viral
+
+1)
+a. tidak
+b. terdapat unexpected error (type=Not Found, status=404).
+c. buat memetakan permintaan web ke methods/menentukan url
+2)
+a. tidak
+b. tidak, karena hasil localhost:8080/viral menampilkan hasil yang seharusnya karena mengganti index() ke viral() 
+hanya mengganti nama methodnya saja
+3)
+a. ya
+b. terjadi error karena di request mapping tidak ada yang namanya "viral2jari"
+c. return untuk mengembalikan/memanggil fungsi yang di return
+
+
+Latihan Request Parameter
+
+1) karena di override sama th:text="${name} + ' do you love me' + '?'" yang merupakan format dari thymeleaf
+2) terjadi error di browser karena diubah menjadi /viral/challenge sedangkan tetap dipanggil dengan url/path dengan /challenge?name=kiki
+3)
+a. Terjadi error karena tidak dimasukkan parameter nama ketika membuka hanya dengan url localhost:8080/challenge
+b. Tidak terjadi error karena method tidak harus memiliki parameter(required=false) sehingga keluar parameter null dan output menjadi "null do you love me?"
+c. Tidak terjadi error karena parameter tidak harus memiliki parameter (required=false) namun parameter di set default menjadi kiki sehingga output tetap "iki do you love me?"
+
+Latihan Path Variabel
+1. Terjadi error karena url tersebut tidak ditemukan/tidak ada
+2. Terjadi error karena ada fungsi pada step sebelumnya yang memiliki path yang sama yaitu pada path /challenge/
+3.menampilkan hasil yang sama sebelum diedit
+kiki do you love me?
+
+Are you riding?
