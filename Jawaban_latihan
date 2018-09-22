@@ -29,7 +29,7 @@ c. Tidak terjadi error karena parameter tidak harus memiliki parameter (required
 Latihan Path Variabel
 1. Terjadi error karena url tersebut tidak ditemukan/tidak ada
 2. Terjadi error karena ada fungsi pada step sebelumnya yang memiliki path yang sama yaitu pada path /challenge/
-3.menampilkan hasil yang sama sebelum diedit
+3. menampilkan hasil yang sama sebelum diedit
 kiki do you love me?
 
 Are you riding?

@@ -11,7 +11,6 @@ public class PageController{
 	public String index() {
 		return "viral";
 	}
-	
 
 	@RequestMapping("/challenge")
 	public String challenge(@RequestParam(value = "name") String name, Model model) {
